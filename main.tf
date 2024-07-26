@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "bucket1" {
-	bucket = "neeha-first-bucket"
+	bucket = "malobika-first-bucket"
 }
 
 resource "aws_s3_bucket" "bucket2" {
@@ -15,7 +15,7 @@ terraform {
     bucket         = "neeha-s3bucket-date"
     key            = "globalstate/s3/terraform.tfstate"
     region         = "eu-west-1"
-    dynamodb_table = "neeha-date-dblocks"
+    dynamodb_table = "malobika-date-dblocks"
     encrypt        = true
   }
 }
